@@ -5,21 +5,15 @@ import VideoItem from "./components/item/video";
 import Slide from "./components/swiper/swiper";
 import VideoGol from "./assets/videoGol1.mp4"
 import ComponentFooter from "./components/footer/componentFooter";
-import Tenis1 from "./assets/tenisAmarelo.JPG"
-import Tenis2 from "./assets/tenisAdidas.JPG"
 import Tenis3 from "./assets/tenisLaranja.JPG"
 import Tenis4 from "./assets/tenisPretoVermelho.JPG"
 import Tenis5 from "./assets/tenisPretoamarelo.JPG"
-import Tenis6 from "./assets/tenisPropaganda.JPG"
-import Tenis7 from "./assets/tenisdetalhebranco.JPG"
 import Tenis8 from "./assets/tenisVermelho.JPG"
-import Camisa1 from "./assets/camisaVerde2.JPG"
 import Banner from "./assets/Gemini_Generated_Image_3p8y3n3p8y3n3p8y.jpg";
 import Camisa2 from "./assets/camisaVermelha.JPG"
 import Camisa3 from "./assets/camisaListrada.JPG"
 import Camisa4 from "./assets/camisaAzul.JPG"
 import Camisa5 from "./assets/camisaAmarela.JPG"
-import Camisa6 from "./assets/camisaVermelha3.JPG"
 import Parte from "./components/blococontainer/blocosContainer";
 
 

@@ -1,4 +1,4 @@
-import {ButtonItem, ContainerVideo, ContentButton, ContentInfo, ContentVideo, InfoItem, Inform, VideoProp, } from './styled';
+import {ContainerVideo, ContentVideo, VideoProp, } from './styled';
 
 interface Iprops {
     video: any;

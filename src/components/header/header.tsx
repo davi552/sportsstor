@@ -22,8 +22,6 @@ import {
 import Sacola from '../../assets/bolsa.png';
 import Coracao from '../../assets/coracao.png';
 import Lupa from '../../assets/lupa.png';
-import SetaDireita from '../../assets/seta-direita.png';
-import SetaEsquerda from '../../assets/seta-esquerda.png';
 import Marca from '../../assets/logo.png';
 
 
