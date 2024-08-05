@@ -38,6 +38,10 @@ export const ImgIcone = styled.img`
     @media(max-width:1021px ){
         width: 200px;
     }
+    @media(max-width:700px ){
+        width: 100%;
+        height: 50vh;
+    }
 `;
 
 export const IconeText = styled.p`

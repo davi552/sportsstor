@@ -12,6 +12,9 @@ export const FooterContainer = styled.div`
    @media(max-width:1021px ){
         height:100vh;
     }
+    @media(max-width:700px ){
+        height: 130vh;
+    }
 `;
 
 export const FooterContent = styled.div`

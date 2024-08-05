@@ -124,3 +124,37 @@
    display: none;
 }
 }
+
+@media(max-width:700px ){
+    .containerSwiper{
+        width: 150px;
+    }
+
+    .buttonSwiper{
+        width: 150px;
+    }
+
+    .swiperImg{
+        width: 150px;
+    }
+
+    .swiper-wrapper{
+        padding: 0;
+    }
+    
+    .swiper-button-prev{
+        display: none;
+    }
+    
+    .swiper-button-prev::after{
+        display: none;
+    }
+    
+    .swiper-button-next::after{
+        display: none;
+    }
+    
+    .swiper-button-next{
+       display: none;
+    }
+    }

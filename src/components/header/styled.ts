@@ -11,6 +11,10 @@ export const ContainerGeral = styled.div`
      height: 130px;
      padding: 10px 0 0 0;
     }
+
+    @media(max-width:700px ){
+        height: 120px;
+    }
 `;
 
 export const FaixaSuperior = styled.div`
