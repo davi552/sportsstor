@@ -19,6 +19,9 @@ export const ContentIcons = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    @media(max-width:500px ){
+        display: block;
+    }
 `;
 
 export const ContentProduto = styled.div`
@@ -26,6 +29,7 @@ export const ContentProduto = styled.div`
     align-items: center;
     margin: 0 10px;
     background-color: #f1f1f1;
+    
 `;
 
 export const ImgIcone = styled.img`
@@ -41,6 +45,11 @@ export const ImgIcone = styled.img`
     @media(max-width:700px ){
         width: 100%;
         height: 50vh;
+    }
+
+    @media(max-width:500px ){
+        height: 300px;
+        width: 100%;
     }
 `;
 

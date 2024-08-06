@@ -97,6 +97,7 @@ export const Faixa = styled.div`
 
     @media(max-width:1021px ){
      height: 50px;
+     padding-top: 100px;
     }
 
 `;
@@ -113,9 +114,9 @@ export const ContainerLogo = styled.div`
 `;
 
 export const Logo = styled.img`
- cursor: pointer;
-width: 90px;
-height: 55px;
+    cursor: pointer;
+    width: 90px;
+    height: 55px;
 `;
 
 export const ButtonContainerLogo = styled.div`
@@ -146,6 +147,7 @@ export const ButtonContainerLogo = styled.div`
 export const ButtonIconLogo = styled.img`
     width: 20px;
     background-color: rgba(0,0,0,0);
+    padding-right: 5px;
 
     @media(min-width:1021px ){
         display:none ;
@@ -258,10 +260,6 @@ export const ButtonContainer = styled.div`
 export const ButtonIcon = styled.img`
     width: 20px;
     background-color: rgba(0,0,0,0);
-
-    @media(max-width:1021px ){
-        display:none ;
-    }
 
 `;
 

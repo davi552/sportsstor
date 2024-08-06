@@ -14,6 +14,12 @@ export const FooterContainer = styled.div`
     }
     @media(max-width:700px ){
         height: 130vh;
+        margin-top: 50vh;
+    }
+
+    @media(max-width:450px ){
+        height: 130vh;
+        margin-top: 100vh;
     }
 `;
 

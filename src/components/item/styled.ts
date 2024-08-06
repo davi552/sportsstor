@@ -52,18 +52,31 @@ export const ContentInfo = styled.div`
   font-variation-settings:
     "XROT" 0,
     "YROT" 0;
+
+    @media(max-width:700px ){
+        height: 25%;
+    }
 `;
 
 export const InfoItem = styled.div`
     text-align: center;
-    font-size: 40px;
+    font-size: 45px;
     text-transform:uppercase;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    @media(max-width:750px ){
+        margin-bottom: 25px;
+    }
+
+    @media(max-width:430px ){
+        margin-bottom: 50px;
+    }
 `;
+
 
 export const Inform = styled.p`
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
     cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
@@ -78,8 +91,9 @@ export const ContentButton = styled.div`
 `;
 
 export const ButtonItem = styled.button`
-    width: 90px;
-    height: 35px;
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
     text-align: center;
     border-radius: 40px;
     background-color: black;
@@ -101,7 +115,7 @@ export const ContainerVideo = styled.div`
     display: block;
     align-items: center;
     margin: 0;
-    padding: 2px 0 100px 0;
+    padding: 200px 0 250px 0;
 
     @media(max-width:1021px ){
         height: 60vh;
@@ -118,12 +132,8 @@ export const ContentVideo = styled.div`
 `;
 
 export const VideoProp = styled.video`
-    width: 80%;
+    width: 90%;
     height: 100%;
     cursor: pointer;
-    border: solid black 5px;
 
-    @media(max-width:1021px ){
-        height: 55%;
-    }
 `;

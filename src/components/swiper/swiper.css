@@ -158,3 +158,17 @@
        display: none;
     }
     }
+
+@media(max-width:500px ){
+    .containerSwiper{
+        width: 150px;
+    }
+
+    .buttonSwiper{
+        width: 72%;
+    }
+
+    .swiperImg{
+        width: 74%;
+    }
+}

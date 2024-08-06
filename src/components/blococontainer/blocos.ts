@@ -7,6 +7,10 @@ export const ContainerBloco = styled.div`
     align-items: center;
     height: 70vh;
     margin: 200px 0;
+
+    @media(max-width:700px ){
+        margin: 0;
+    }
 `;
 
 export const TitleBloco = styled.p`
@@ -24,6 +28,11 @@ export const ContentBlocos = styled.div`
     align-items: center;
     overflow: hidden;
     margin-top: 40px;
+
+    @media(max-width:500px ){
+        display: block;
+        height: 150vh;
+    }
 `;
 
 export const Bloco = styled.div`
@@ -44,27 +53,46 @@ export const Bloco = styled.div`
     @media(max-width:1021px ){
         width: 400px;
     }
+
+    @media(max-width:450px ){
+        height: 300px;
+        width: 100%;
+        margin: 0 0 10px 0;
+        padding: 0;
+        align-items: center;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+    }
 `;
 
 export const TextBloco = styled.p`
-    font-size: 12px;
+    font-size: 15px;
     text-align: left;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top:360px;
     background-color:rgba(0,0,0,0);
+
+    @media(max-width:500px ){
+        margin: 190px 0 0 0;
+        text-align: center;
+    }
     
 `;
 
 export const ButtonBloco = styled.button`
     width: 100px;
     height: 30px;
-    background-color: white;
+    background-color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
+    color: white;
     align-items: center;
     cursor: pointer;
     border: none;
     border-radius: 40px;
     margin-top:20px;
+
+    @media(max-width:500px ){
+        margin-left: 37%;
+    }
 `;
