@@ -29,7 +29,7 @@ function Item ( {imagem, title, info, button, tamanho}:Iprops ){
                 </ContentInfo>
                 <Inform>{info}</Inform>
                 <ContentButton>
-                    <ButtonItem>{button}</ButtonItem>
+                        <ButtonItem>{button}</ButtonItem>
                 </ContentButton>
             </ContainerItem>
         </>

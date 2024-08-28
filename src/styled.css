@@ -5,3 +5,8 @@
     padding: 0;
     background-color: #fff;
 }
+
+font{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+}

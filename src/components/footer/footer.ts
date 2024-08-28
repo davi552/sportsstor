@@ -10,7 +10,7 @@ export const FooterContainer = styled.div`
    padding: 20px 0 ;
 
    @media(max-width:1021px ){
-        height:100vh;
+        height:120vh;
     }
     @media(max-width:700px ){
         height: 130vh;

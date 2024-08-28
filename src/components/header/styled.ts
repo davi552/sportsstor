@@ -14,6 +14,7 @@ export const ContainerGeral = styled.div`
 
     @media(max-width:700px ){
         height: 120px;
+        width: 100%;
     }
 `;
 

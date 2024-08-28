@@ -8,13 +8,35 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Home from './pages/home';
+import Produto from './pages/contato';
+
 register();
+
+
+const router = createBrowserRouter([
+  {
+    path:"/",
+    element:<App/>,
+    children:[
+      {
+        path:"/",
+        element: <Home/>
+      },
+      {
+        path:"/produto",
+        element: <Produto/>
+      }
+    ]
+  },
+])
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router}/>
   </React.StrictMode>
 );
